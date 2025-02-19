@@ -45,7 +45,7 @@ p::selection {
 
 .nav-uper {
     height: 60px;
-    background-image: url(/images/gradient-bg-01.png);
+    background-image: url(/gradient-bg-01.png);
     display: flex;
     gap: 2rem;
     overflow: hidden;
@@ -113,7 +113,7 @@ p::selection {
 .logo img {
     height: 100px;
     width: 315px;
-    background-image: url(/images/Taiba-institute-Logo-1.svg);
+    background-image: url(/Taiba-institute-Logo-1.svg);
     background-size: contain;
     background-color: white;
 }
@@ -301,7 +301,7 @@ p::selection {
 .hero-section {
     height: 608px;
     width: 1891px;
-    background-image: url(/images/hero-section-bg.webp);
+    background-image: url(/hero-section-bg.webp);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -374,7 +374,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/images/html-5-icon.png);
+    background-image: url(/html-5-icon.png);
     background-size: cover;
 }
 
@@ -384,7 +384,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/images/php-svg-icon.svg);
+    background-image: url(/php-svg-icon.svg);
     background-size: cover;
 }
 
@@ -394,7 +394,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/images/python-icon.svg);
+    background-image: url(/python-icon.svg);
     background-size: cover;
 }
 
@@ -404,7 +404,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/images/wordpress-svg-icon.svg);
+    background-image: url(/wordpress-svg-icon.svg);
     background-size: cover;
 }
 
@@ -414,7 +414,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/images/Seo-icon.png);
+    background-image: url(/Seo-icon.png);
     background-size: cover;
 }
 
@@ -424,7 +424,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/images/Adobe-Illustrator-Logo.svg);
+    background-image: url(/Adobe-Illustrator-Logo.svg);
     background-size: cover;
 }
 
@@ -434,7 +434,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/images/photoshop-icon.svg);
+    background-image: url(/photoshop-icon.svg);
     background-size: cover;
 }
 
@@ -444,7 +444,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/images/chatgpt-icon.svg);
+    background-image: url(/chatgpt-icon.svg);
     background-size: cover;
 }
 
