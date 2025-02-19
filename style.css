@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    cursor: pointer;
+}
+
+a::selection {
+    background-color: #FFB400;
+    color: black;
+}
+
+p::selection {
+    background-color: #FFB400;
+    color: black;
+}
+
+/* Styling Side Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFB400;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFB400;
+}
+
+/* Styling End Of Side ScrollBar */
+
+
+/* Styling nav-uper */
+
+.nav-uper {
+    height: 60px;
+    background-image: url(/images/gradient-bg-01.png);
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.scroll-english {
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 50;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+.scroll i {
+    color: #FFB400;
+    font-size: 7px;
+}
+
+.urdu {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.scroll {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 1rem;
+    min-width: 100%;
+    animation: RightToLeft linear 50s infinite;
+}
+
+.scroll:hover {
+    animation-play-state: paused;
+}
+
+@keyframes RightToLeft {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Styling nnavbar */
+
+.navbar {
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 100px;
+    width: 630px;
+}
+
+.logo img {
+    height: 100px;
+    width: 315px;
+    background-image: url(/images/Taiba-institute-Logo-1.svg);
+    background-size: contain;
+    background-color: white;
+}
+
+
+.nav-cont {
+    height: 100px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling Of box1 */
+.box1 {
+    border-right: 1PX solid #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.what-icon {
+    font-size: 2rem;
+    color: #FFB400;
+}
+
+.a-fir {
+    width: 153px;
+    font-family: "Outfit", serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+
+}
+
+.a-sec {
+    width: 153px;
+    font-family: "Outfit", serif;
+    font-size: 0.95rem;
+    font-weight: 550;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+/* Styling Of box2 */
+
+.box2 {
+    border-right: 1PX solid #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.email-icon {
+    font-size: 2rem;
+    color: #FFB400;
+}
+
+.e-fir {
+    width: 153px;
+    font-family: "Outfit", serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.e-sec {
+    width: 153px;
+    font-family: "Outfit", serif;
+    font-size: 0.95rem;
+    font-weight: 550;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+/* Styling Of box3 */
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-1 {
+    text-decoration: none;
+    color: #FFB400;
+}
+
+.icon-1 {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 2px solid #FFB400;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.icon-1:hover {
+    height: 30px;
+    width: 30px;
+    background-color: #FFB400;
+    border-radius: 50%;
+    color: white;
+}
+
+/* Styling Of flot-nav */
+
+.flot-nav {
+    /* height: 50px; */
+    width: 1335px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 280px;
+    z-index: 1/2;
+    filter: drop-shadow(-1px -1px 2px #847e7e);
+    padding: 10px;
+}
+
+.flot-content {
+    height: 20px;
+    width: 1074px;
+    padding: 15px 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.flot-content a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 20px;
+    text-transform: uppercase;
+
+}
+
+.flot-content a:hover {
+    color: #FFB400;
+}
+
+/* styling Button  */
+.flot-but {
+    height: 50px;
+    width: 270px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.flot-but p {
+    height: 14px;
+    width: 108px;
+    background-color: #FFB400;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+    padding: 18px 18px 18px 18px;
+}
+
+.flot-but p:hover {
+    background-color: #291260;
+}
+
+/* STyling Hero Section */
+
+.hero-section {
+    height: 608px;
+    width: 1891px;
+    background-image: url(/images/hero-section-bg.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    padding: 45px 10px 65px 10px;
+}
+
+.hero-cont {
+    height: 588px;
+    width: 662px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.hero-cont h2 {
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+    line-height: 55px;
+    padding-bottom: 20px;
+}
+
+.hero-cont h2 span {
+    color: #FFB400;
+}
+
+.hero-cont h3 {
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.hero-cont h3 span {
+    color: #FFB400;
+}
+
+.hero-cont p {
+    font-family: 'Outfit';
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: -5px;
+}
+
+/* styling Icons Of Languages */
+.all-icons {
+    height: 55px;
+    width: 662px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.icons1 {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/images/html-5-icon.png);
+    background-size: cover;
+}
+
+.icons2 {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/images/php-svg-icon.svg);
+    background-size: cover;
+}
+
+.icons3 {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/images/python-icon.svg);
+    background-size: cover;
+}
+
+.icons4 {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/images/wordpress-svg-icon.svg);
+    background-size: cover;
+}
+
+.icons5 {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/images/Seo-icon.png);
+    background-size: cover;
+}
+
+.icons6 {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/images/Adobe-Illustrator-Logo.svg);
+    background-size: cover;
+}
+
+.icons7 {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/images/photoshop-icon.svg);
+    background-size: cover;
+}
+
+.icons8 {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/images/chatgpt-icon.svg);
+    background-size: cover;
+}
+.but{
+    padding-top: 25px;
+    /* display: flex;
+    justify-content: start; */
+}
+.but a{
+    height: 14px;
+    width: 108px;
+    background-color: #FFB400;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    padding:17px 26px 14px 26px;
+}
+
+.but a:hover{
+    color:#FFB400 ;
+    background-color: white;
+    padding-left: 5px;
+
+}
+
+.but-emplo{
+    height: 40px;
+    width: 251px;
+    display: inline-block;
+    padding-left: 35px;
+}
+.but-emplo i{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFB400;
+    margin-right: 10px;
+}
+
+.but-emplo span{
+    font-family: "Outfit", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+}
+
+/* styling Hero image */
+
+.hero-image {
+    height: 588px;
+    width: 662px;
+    padding: 10px;
+}
+
+.hero-image img {
+    height: 608px;
+    width: 662px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.below-hero {
+    height: 720px;
+    width: 100%;
+}
