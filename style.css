@@ -315,8 +315,9 @@ p::selection {
     width: 662px;
     padding: 10px;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .hero-cont h2 {
@@ -446,12 +447,14 @@ p::selection {
     background-image: url(/images/chatgpt-icon.svg);
     background-size: cover;
 }
-.but{
+
+.but {
     padding-top: 25px;
     /* display: flex;
     justify-content: start; */
 }
-.but a{
+
+.but a {
     height: 14px;
     width: 108px;
     background-color: #FFB400;
@@ -463,23 +466,24 @@ p::selection {
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
-    padding:17px 26px 14px 26px;
+    padding: 17px 26px 14px 26px;
 }
 
-.but a:hover{
-    color:#FFB400 ;
+.but a:hover {
+    color: #FFB400;
     background-color: white;
     padding-left: 5px;
 
 }
 
-.but-emplo{
+.but-emplo {
     height: 40px;
     width: 251px;
     display: inline-block;
     padding-left: 35px;
 }
-.but-emplo i{
+
+.but-emplo i {
     height: 40px;
     width: 40px;
     font-size: 40px;
@@ -489,7 +493,7 @@ p::selection {
     margin-right: 10px;
 }
 
-.but-emplo span{
+.but-emplo span {
     font-family: "Outfit", Sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -510,10 +514,141 @@ p::selection {
     width: 662px;
 }
 
+/* styling Hero image */
+.flot-hero {
+    height: 104px;
+    width: 1253px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 280px;
+    z-index: 1/2;
+    /* filter: drop-shadow(-1px -1px 2px #847e7e); */
+    padding: 47px 50px 47px 42px;
+    margin-top: -80px;
+    background-image: url(https://taibainstitute.pk/wp-content/uploads/2024/08/section-2-bg.webp);
+    background-size: cover;
+}
+.flot-hero-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
+.flot-hero-box1 {
+    height: 84px;
+    width: 374px;
+    display: flex;
+    padding: 10px;
+    border-right: 1px solid white;
+    justify-content: start;
+    align-items: start;
+}
 
+.flot-hero-box1 span h3 {
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+.flot-hero-box1 span p {
+    color: #FFFFFF;
+    font-family: "Outfit", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 20px;
+}
+
+
+
+.flot-hero-box1 span i {
+    font-size: 50px;
+    color: #FFB400;
+
+}
+
+
+
+/* Styling Flot Hero Box 2 */
+.flot-hero-box2 {
+    height: 84px;
+    width: 374px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+    border-right: 1px solid white;
+    margin-left: 30px;
+}
+
+.flot-hero-box2 span h3 {
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+.flot-hero-box2 span p {
+    color: #FFFFFF;
+    font-family: "Outfit", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 20px;
+}
+
+.rocket {
+    font-size: 50px;
+    color: #FFB400;
+}
+
+/* styling Flot Hero Box3 */
+.flot-hero-box3 {
+    height: 84px;
+    width: 374px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.flot-hero-box3 span h3 {
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+.flot-hero-box3 span p {
+    color: #FFFFFF;
+    font-family: "Outfit", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 20px;
+}
+
+
+
+.flot-hero-box3 span i {
+    font-size: 50px;
+    color: #FFB400;
+
+}
 
 
 
