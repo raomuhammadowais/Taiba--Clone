@@ -404,7 +404,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/wordpress-svg-icon.webp);
+    background-image: url(/wordpress-svg-icon.svg);
     background-size: cover;
 }
 
