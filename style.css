@@ -752,8 +752,10 @@ span::selection {
     height: 382px;
     width: 1871px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 30px;
+    overflow-x: 1;
+    overflow-y: -1;
 }
 
 .below-sec-box1{
@@ -764,7 +766,55 @@ span::selection {
     padding-right: 33px;
     border-top: 3px solid black;
     border-radius: 5px;
+    margin-right: 10px;
 }
+
+.below-sec-box1 img{
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .below-sec-box2{
     height: 280px;
     width: 405px;
@@ -773,6 +823,7 @@ span::selection {
     padding-right: 33px;
     border-top: 3px solid black;
     border-radius: 5px;
+    margin-right: 10px;
 }
 .below-sec-box3{
     height: 280px;
@@ -782,6 +833,7 @@ span::selection {
     padding-right: 33px;
     border-top: 3px solid black;
     border-radius: 5px;
+    margin-right: 10px;
 }
 .below-sec-box4{
     height: 280px;
@@ -791,6 +843,7 @@ span::selection {
     padding-right: 33px;
     border-top: 3px solid black;
     border-radius: 5px;
+    margin-right: 10px;
 }
 .below-sec-box5{
     height: 280px;
@@ -800,4 +853,5 @@ span::selection {
     padding-right: 33px;
     border-top: 3px solid black;
     border-radius: 5px;
+    margin-right: 10px;
 }
