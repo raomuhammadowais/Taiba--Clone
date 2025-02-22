@@ -424,7 +424,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/Adobe-Illustrator-Logo.webp);
+    background-image: url(/Adobe-Illustrator-Logo.svg);
     background-size: cover;
 }
 
@@ -434,7 +434,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/photoshop-icon.webp);
+    background-image: url(/photoshop-icon.svg);
     background-size: cover;
 }
 
@@ -444,7 +444,7 @@ p::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/chatgpt-icon.webp);
+    background-image: url(/chatgpt-icon.svg);
     background-size: cover;
 }
 
