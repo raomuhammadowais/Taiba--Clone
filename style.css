@@ -18,6 +18,26 @@ p::selection {
     color: black;
 }
 
+h1::selection {
+    background-color: #FFB400;
+    color: black;
+}
+
+h2::selection {
+    background-color: #FFB400;
+    color: black;
+}
+
+h4::selection {
+    background-color: #FFB400;
+    color: black;
+}
+
+span::selection {
+    background-color: #FFB400;
+    color: black;
+}
+
 /* Styling Side Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -49,6 +69,7 @@ p::selection {
     display: flex;
     gap: 2rem;
     overflow: hidden;
+    padding:  5px 10px;
 }
 
 .scroll-english {
@@ -72,7 +93,7 @@ p::selection {
 }
 
 .scroll {
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -532,7 +553,8 @@ p::selection {
     background-image: url(https://taibainstitute.pk/wp-content/uploads/2024/08/section-2-bg.webp);
     background-size: cover;
 }
-.flot-hero-cont{
+
+.flot-hero-cont {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -650,21 +672,132 @@ p::selection {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* styling below Hero section*/
 
 
 
 .below-hero {
-    height: 720px;
-    width: 100%;
+    height: 565px;
+    width: 1871;
+    padding: 70px 20px 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling below Hero triangle */
+.below-hero-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-hero-first i {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0px 5px 0px 0px;
+    color: #FFB400;
+    border-radius: 15px;
+}
+
+.below-hero-first h2 {
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+/* styling below Hero Heading */
+
+.headings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-heading {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.section-heading h2 {
+    text-align: center;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0px;
+}
+
+.section-heading span {
+    color: #FFB400;
+}
+
+.sec-subhed {
+    text-align: center;
+}
+
+.sec-subhed p {
+    font-family: "Outfit", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* styling slider*/
+
+.slider{
+    height: 382px;
+    width: 1871px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.below-sec-box1{
+    height: 280px;
+    width: 405px;
+    background-color: #FFDCED;
+    padding-left: 40px;
+    padding-right: 33px;
+    border-top: 3px solid black;
+    border-radius: 5px;
+}
+.below-sec-box2{
+    height: 280px;
+    width: 405px;
+    background-color: #DCE2FF;
+    padding-left: 40px;
+    padding-right: 33px;
+    border-top: 3px solid black;
+    border-radius: 5px;
+}
+.below-sec-box3{
+    height: 280px;
+    width: 405px;
+    background-color: #E5DCFF;
+    padding-left: 40px;
+    padding-right: 33px;
+    border-top: 3px solid black;
+    border-radius: 5px;
+}
+.below-sec-box4{
+    height: 280px;
+    width: 405px;
+    background-color: #FFDCED;
+    padding-left: 40px;
+    padding-right: 33px;
+    border-top: 3px solid black;
+    border-radius: 5px;
+}
+.below-sec-box5{
+    height: 280px;
+    width: 405px;
+    background-color: #DCF0FF;
+    padding-left: 40px;
+    padding-right: 33px;
+    border-top: 3px solid black;
+    border-radius: 5px;
 }
