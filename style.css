@@ -13,6 +13,12 @@ a::selection {
     color: black;
 }
 
+br::selection {
+    background-color: #FFB400;
+    color: black;
+}
+
+
 p::selection {
     background-color: #FFB400;
     color: black;
@@ -24,6 +30,11 @@ h1::selection {
 }
 
 h2::selection {
+    background-color: #FFB400;
+    color: black;
+}
+
+h3::selection {
     background-color: #FFB400;
     color: black;
 }
@@ -69,7 +80,7 @@ span::selection {
     display: flex;
     gap: 2rem;
     overflow: hidden;
-    padding:  5px 10px;
+    padding: 5px 10px;
 }
 
 .scroll-english {
@@ -710,7 +721,7 @@ span::selection {
 
 /* styling below Hero Heading */
 
-.headings{
+.headings {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -748,110 +759,286 @@ span::selection {
 
 /* styling slider*/
 
-.slider{
+.slider {
     height: 382px;
     width: 1871px;
     display: flex;
     justify-content: space-evenly;
     padding-top: 30px;
-    overflow-x: 1;
-    overflow-y: -1;
+    overflow-x: scroll;
+    /* overflow: hidden; */
 }
 
-.below-sec-box1{
+/* styling Box 1*/
+.below-sec-box1 {
     height: 280px;
     width: 405px;
-    background-color: #FFDCED;
+    display: flex;
     padding-left: 40px;
-    padding-right: 33px;
+    padding-top: 33px;
     border-top: 3px solid black;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.below-sec-box1 img{
-    background-size: cover;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.below-sec-box2{
-    height: 280px;
-    width: 405px;
-    background-color: #DCE2FF;
-    padding-left: 40px;
-    padding-right: 33px;
-    border-top: 3px solid black;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-.below-sec-box3{
-    height: 280px;
-    width: 405px;
     background-color: #E5DCFF;
-    padding-left: 40px;
-    padding-right: 33px;
-    border-top: 3px solid black;
     border-radius: 5px;
-    margin-right: 10px;
 }
-.below-sec-box4{
+
+
+.below-sec-box1-1 {
+    height: 246px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.headins h3 {
+    color: #291B2F;
+    font-family: "Outfit", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 3px;
+}
+
+
+.headins h1 {
+    color: #292929;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 26.41px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: -100px
+}
+.months {
+    color: #291B2F;
+    font-family: "Outfit", Sans-serif;
+    font-size: 13.2px;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 10px
+}
+
+.weeks1 {
+    width: 65px;
+    text-align: center;
+    border-radius: 4px;
+    background: #D3C5FC;
+    color: #291B2F;
+    font-family: "Outfit", Sans-serif;
+    font-size: 11.74px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.link-icon {
+    margin-top: 20px;
+}
+
+.link-icon a {
+    font-family: "Outfit", Sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #291B2F;
+    text-decoration: none;
+} 
+
+.link-icon i {
+    font-size: 15px;
+    font-weight: 600;
+} 
+
+
+.below-sec-box1-2 img {
+    background-size: cover;
+    height: 280px;
+    width: 214px;
+    margin-left: 9px;
+}
+
+
+/* styling Box 2*/
+
+.below-sec-box2 {
     height: 280px;
     width: 405px;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 33px;
+    border-top: 3px solid black;
+    background-color: #dcf0ff;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.below-sec-box2-1 {
+    height: 246px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.weeks2 {
+    width: 65px;
+    text-align: center;
+    border-radius: 4px;
+    background: #c1e5ff;
+    color: #291B2F;
+    font-family: "Outfit", Sans-serif;
+    font-size: 11.74px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.below-sec-box2-2 img {
+    background-size: contain;
+    width: 214px;
+    margin-left: 9px;
+    position: relative;
+    top: 50px;
+}
+
+/* styling Box 3*/
+.below-sec-box3 {
+    height: 280px;
+    width: 405px;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 33px;
+    border-top: 3px solid black;
     background-color: #FFDCED;
-    padding-left: 40px;
-    padding-right: 33px;
-    border-top: 3px solid black;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.below-sec-box5{
+
+
+.below-sec-box3-1 {
+    height: 246px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.weeks3 {
+    width: 65px;
+    text-align: center;
+    border-radius: 4px;
+    background: #FFC4E0;
+    color: #291B2F;
+    font-family: "Outfit", Sans-serif;
+    font-size: 11.74px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.below-sec-box3-2 img {
+    background-size: contain;
+    height: 280px;
+    width: 214px;
+    margin-left: 9px;
+}
+
+/* styling Box 4*/
+.below-sec-box4 {
     height: 280px;
     width: 405px;
-    background-color: #DCF0FF;
+    display: flex;
     padding-left: 40px;
-    padding-right: 33px;
+    padding-top: 33px;
     border-top: 3px solid black;
+    background-color: #DCFFFF;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.below-sec-box4-1 {
+    height: 246px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.weeks4 {
+    width: 65px;
+    text-align: center;
+    border-radius: 4px;
+    background: #A2FFFF;
+    color: #291B2F;
+    font-family: "Outfit", Sans-serif;
+    font-size: 11.74px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.below-sec-box4-2 img {
+    background-size: contain;
+    height: 280px;
+    width: 214px;
+    margin-left: 9px;
+}
+/* styling Box 5*/
+
+.below-sec-box5 {
+    height: 280px;
+    width: 405px;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 33px;
+    border-top: 3px solid black;
+    background-color: #DCE2FF;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.below-sec-box5-1 {
+    height: 246px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.weeks5 {
+    width: 65px;
+    text-align: center;
+    border-radius: 4px;
+    background: #C3CDFF;
+    color: #291B2F;
+    font-family: "Outfit", Sans-serif;
+    font-size: 11.74px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.below-sec-box5-2 img {
+    background-size: cover;
+    width: 214px;
+    margin-left: 9px;
+    position: relative;
+    top: 50px;
 }
