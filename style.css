@@ -145,7 +145,7 @@ span::selection {
     height: 100px;
     width: 315px;
     background-image: url("/Taiba-institute-Logo-1.svg");
-    background-size: contain;
+    background-size: cover;
     background-color: white;
 }
 
