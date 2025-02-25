@@ -76,7 +76,7 @@ span::selection {
 
 .nav-uper {
     height: 60px;
-    background-image: url("/gradient-bg-01.PNG");
+    background-image: url("/gradient-bg-01.png");
     display: flex;
     gap: 2rem;
     overflow: hidden;
