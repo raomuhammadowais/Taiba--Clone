@@ -76,9 +76,10 @@ span::selection {
 
 .nav-uper {
     height: 60px;
-    background-image: url(/gradient-bg-01.PNG);
+    background-image: url("/gradient-bg-01.PNG");
     display: flex;
     gap: 2rem;
+    overflow: hidden;
 }
 
 .scroll-english {
@@ -143,7 +144,7 @@ span::selection {
 .logo img {
     height: 100px;
     width: 315px;
-    background-image: url(/Taiba-institute-Logo-1.svg);
+    background-image: url("/Taiba-institute-Logo-1.svg");
     background-size: contain;
     background-color: white;
 }
@@ -331,7 +332,7 @@ span::selection {
 .hero-section {
     height: 608px;
     width: 1891px;
-    background-image: url(/hero-section-bg.webp);
+    background-image: url("/hero-section-bg.webp");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -404,7 +405,7 @@ span::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/html-5-icon.png);
+    background-image: url("/html-5-icon.png");
     background-size: cover;
 }
 
@@ -414,7 +415,7 @@ span::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/php-svg-icon.svg);
+    background-image: url("/php-svg-icon.svg");
     background-size: cover;
 }
 
@@ -424,7 +425,7 @@ span::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/python-icon.svg);
+    background-image: url("/python-icon.svg");
     background-size: cover;
 }
 
@@ -434,7 +435,7 @@ span::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/wordpress-svg-icon.svg);
+    background-image: url("/wordpress-svg-icon.svg");
     background-size: cover;
 }
 
@@ -444,7 +445,7 @@ span::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/Seo-icon.png);
+    background-image: url("/Seo-icon.png");
     background-size: cover;
 }
 
@@ -454,7 +455,7 @@ span::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/Adobe-Illustrator-Logo.svg);
+    background-image: url("/Adobe-Illustrator-Logo.svg");
     background-size: cover;
 }
 
@@ -464,7 +465,7 @@ span::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/photoshop-icon.svg);
+    background-image: url("/photoshop-icon.svg");
     background-size: cover;
 }
 
@@ -474,7 +475,7 @@ span::selection {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(/chatgpt-icon.svg);
+    background-image: url("/chatgpt-icon.svg");
     background-size: cover;
 }
 
@@ -559,7 +560,7 @@ span::selection {
     /* filter: drop-shadow(-1px -1px 2px #847e7e); */
     padding: 47px 50px 47px 42px;
     margin-top: -80px;
-    background-image: url(https://taibainstitute.pk/wp-content/uploads/2024/08/section-2-bg.webp);
+    background-image: url("https://taibainstitute.pk/wp-content/uploads/2024/08/section-2-bg.webp");
     background-size: cover;
 }
 
