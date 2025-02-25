@@ -79,8 +79,6 @@ span::selection {
     background-image: url(/gradient-bg-01.PNG);
     display: flex;
     gap: 2rem;
-    overflow: hidden;
-    padding: 5px 10px;
 }
 
 .scroll-english {
@@ -119,12 +117,12 @@ span::selection {
 }
 
 @keyframes RightToLeft {
-    from {
-        transform: translateX(0%);
+    0% {
+        transform: translateX(-0%);
     }
 
-    to {
-        transform: translateX(-50%);
+    100% {
+        transform: translateX(-100%);
     }
 }
 
