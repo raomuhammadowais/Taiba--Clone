@@ -76,7 +76,7 @@ span::selection {
 
 .nav-uper {
     height: 60px;
-    background-image: url("/gradient-bg-01.png");
+    background-image: url("https://taibainstitute.pk/wp-content/uploads/2024/07/gradient-bg-01.png");
     display: flex;
     gap: 2rem;
     overflow: hidden;
