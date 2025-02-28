@@ -77,6 +77,9 @@ span::selection {
 .nav-uper {
     height: 60px;
     background-image: url("https://taibainstitute.pk/wp-content/uploads/2024/07/gradient-bg-01.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     gap: 2rem;
     overflow: hidden;
@@ -110,7 +113,7 @@ span::selection {
     flex-shrink: 0;
     gap: 1rem;
     min-width: 100%;
-    animation: RightToLeft linear 50s infinite;
+    animation: RightToLeft linear 100s infinite;
 }
 
 .scroll:hover {
@@ -119,7 +122,7 @@ span::selection {
 
 @keyframes RightToLeft {
     0% {
-        transform: translateX(-0%);
+        transform: translateX(0%);
     }
 
     100% {
@@ -334,6 +337,7 @@ span::selection {
     width: 1891px;
     background-image: url("https://taibainstitute.pk/wp-content/uploads/2024/08/hero-section-bg.webp");
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -503,7 +507,7 @@ span::selection {
 .but a:hover {
     color: #FFB400;
     background-color: white;
-    padding-left: 5px;
+    padding: 17px 26px 14px 26px;
 
 }
 
@@ -809,6 +813,7 @@ span::selection {
     line-height: 30px;
     margin-right: -100px
 }
+
 .months {
     color: #291B2F;
     font-family: "Outfit", Sans-serif;
@@ -843,12 +848,12 @@ span::selection {
     text-transform: uppercase;
     color: #291B2F;
     text-decoration: none;
-} 
+}
 
 .link-icon i {
     font-size: 15px;
     font-weight: 600;
-} 
+}
 
 
 .below-sec-box1-2 img {
@@ -995,6 +1000,7 @@ span::selection {
     width: 214px;
     margin-left: 9px;
 }
+
 /* styling Box 5*/
 
 .below-sec-box5 {
@@ -1040,4 +1046,271 @@ span::selection {
     margin-left: 9px;
     position: relative;
     top: 50px;
+}
+
+/* Styling Below-hero-scroll*/
+
+
+
+.below-hero-scroll {
+    height: 50px;
+    background-color: #4D1F5E;
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+
+.scroll1-english {
+    color: white;
+    text-transform: uppercase;
+    margin: 0px 35px 0px 28px;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+
+.scroll1 i {
+    color: #FFB400;
+    font-size: 25px;
+}
+
+.scroll1 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 1rem;
+    min-width: 100%;
+    animation: RightToLeft linear 100s infinite;
+}
+
+.scroll1:hover {
+    animation-play-state: paused;
+}
+
+@keyframes RightToLeft {
+    0% {
+        transform: translateX(-0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Styling Section 4*/
+
+.section4 {
+    height: 820px;
+    background-image: url("https://taibainstitute.pk/wp-content/uploads/2024/08/Rocket-section-img.webp");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4-box1 {
+    height: 510px;
+    width: 700px;
+
+}
+
+/* styling Section4 Box 2 */
+.sec4-box2 {
+    height: 510px;
+    width: 700px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+
+.sec4-box2-icon-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4-box2-icon-line i {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0px 5px 0px 0px;
+    color: #FFB400;
+    border-radius: 15px;
+}
+
+.sec4-box2-icon-line h2 {
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    color: white;
+}
+
+
+.sec4-box2-heading {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.sec4-box2-heading h2 {
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0px;
+}
+
+.sec4-box2-heading span {
+    color: #FFB400;
+}
+
+
+
+/* styling Section4 Box 2  P Tag */
+.sec4-box2 p {
+    font-family: 'Outfit';
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+/* styling Section4 Box 2  Btn */
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn a {
+    font-family: 'Outfit';
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    background-color: #FFB400;
+    border-radius: 5px;
+    height: 17px;
+    width: 442px;
+    text-transform: uppercase;
+    padding: 24px 18px 20px 18px;
+}
+
+.btn a:hover {
+    color: #FFB400;
+    background-color: white;
+    padding: 24px 18px 20px 18px;
+}
+
+
+/* styling Section5 */
+
+.section5 {
+    height: 516px;
+    padding: 100px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* styling Section5 Box 1 */
+.sec5-box1 {
+    height: 496px;
+    width: 640px;
+    background-image: url("https://taibainstitute.pk/wp-content/uploads/2024/08/CERTIFICATE.svg");
+}
+
+
+/* styling Section5 Box 2 */
+
+.sec5-box2 {
+    height: 496px;
+    width: 733px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+.sec5-box2-heading {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+
+.sec5-box2-icon-line {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.sec5-box2-icon-line i {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0px 5px 0px 0px;
+    color: #FFB400;
+    border-radius: 15px;
+}
+
+.sec5-box2-icon-line h2 {
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    color: #161439;
+}
+
+
+.sec5-box2-heading h2 {
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0px;
+    color: #161439;
+}
+
+.sec5-box2-heading span {
+    color: #FFB400;
+}
+
+
+.sec5-box2 p {
+    font-family: 'Outfit';
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* styling sec5-box2-image */
+.sec5-box2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sec5-box2-image p {
+    font-family: "Montserrat", Sans-serif;
+    color: gray;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: -10px;
 }
