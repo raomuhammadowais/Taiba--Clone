@@ -1314,3 +1314,14 @@ span::selection {
     margin-left: 10px;
     margin-top: -10px;
 }
+
+
+
+
+.section6{
+    height: 294px;
+    width: 1891px;
+    background-image: url("https://taibainstitute.pk/wp-content/uploads/2024/08/start-leaning-sec-bg-img.webp");
+    background-size: cover;
+    padding: 90px 10px 190px 10px;
+}
