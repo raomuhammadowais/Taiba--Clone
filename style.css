@@ -460,7 +460,7 @@ span::selection {
     margin-top: 10px;
     margin-right: 15px;
     background-image: url(https://taibainstitute.pk/wp-content/uploads/2024/08/Adobe-Illustrator-Logo.svg);
-    background-size : cover;
+    background-size: cover;
 }
 
 .icons7 {
@@ -1226,6 +1226,7 @@ span::selection {
     justify-content: space-evenly;
     align-items: center;
 }
+
 /* styling Section5 Box 1 */
 .sec5-box1 {
     height: 496px;
@@ -1318,7 +1319,7 @@ span::selection {
 
 
 
-.section6{
+.section6 {
     height: 294px;
     width: 1891px;
     background-image: url(https://taibainstitute.pk/wp-content/uploads/2024/08/start-leaning-sec-bg-img.webp);
@@ -1437,6 +1438,7 @@ section .wave.wave2 {
         background-position-x: 1000px;
     }
 }
+
 section .wave.wave3 {
     animation: animate3 3s linear infinite;
     z-index: 998;
@@ -1456,3 +1458,199 @@ section .wave.wave3 {
 }
 
 /* Styling Wave Animation end */
+
+/* Styling Sec7 */
+
+.sec7 {
+    height: 770px;
+    width: 1891px;
+    background-image: url(https://taibainstitute.pk/wp-content/uploads/2024/08/start-leaning-sec-bg-img.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 190px 10px 100px 10px;
+
+}
+
+.sec7-icon-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec7-icon-line i {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0px 5px 0px 0px;
+    color: #FFB400;
+    border-radius: 15px;
+}
+
+.sec7-icon-line h2 {
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+
+.sec7-heading h2 {
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.sec7-heading span {
+    color: #FFB400;
+}
+
+.sec7 p {
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+/* Styling Sec7-box1 */
+.sec7-box1 {
+    height: 207px;
+    width: 1415px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec7-box1-box {
+    height: 187px;
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sec7-box1-box i {
+    font-size: 70px;
+    font-weight: 900;
+    color: #FFB400;
+}
+
+.sec7-box1-box h2 {
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.sec7-box1-box p {
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 1px;
+    margin-top: -20px;
+}
+
+
+/* Styling Sec7-box2 */
+.sec7-box2 {
+    height: 280px;
+    width: 1415px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.sec7-box2-box {
+    height: 260px;
+    width: 680px;
+    padding: 10px 15px 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+}
+
+
+.sec7-box2-box img {
+    height: 249px;
+    width: 225px;
+    margin-left: -10px;
+    margin-top: 22px;
+    border-radius: 20px;
+}
+.sec7-box2-box-box1{
+    height: 260px;
+    width: 423px;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+
+
+.sec7-box2-box-box1 h2 {
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0px;
+}
+
+/* styling Section4 Box 2  P Tag */
+.sec7-box2-box-box1 p {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: #161439;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align: left;
+    margin-top: -15px;
+}
+
+/* styling Section4 Box 2  Btn */
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn a {
+    font-family: 'Outfit';
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    background-color: #FFB400;
+    border-radius: 5px;
+    height: 17px;
+    width: 442px;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+}
+
+.btn a:hover {
+    color: #FFB400;
+    background-color: #161439;
+    padding: 10px 15px 10px 15px;
+}
