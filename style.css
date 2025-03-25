@@ -183,7 +183,6 @@ span::selection {
     text-decoration: none;
     color: black;
     margin: 10px;
-
 }
 
 .a-sec {
@@ -1459,6 +1458,7 @@ section .wave.wave3 {
 
 /* Styling Wave Animation end */
 
+
 /* Styling Sec7 */
 
 .sec7 {
@@ -1578,7 +1578,7 @@ section .wave.wave3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 .sec7-box2-box {
@@ -1600,7 +1600,8 @@ section .wave.wave3 {
     margin-top: 22px;
     border-radius: 20px;
 }
-.sec7-box2-box-box1{
+
+.sec7-box2-box-box1 {
     height: 260px;
     width: 423px;
     margin-left: 20px;
